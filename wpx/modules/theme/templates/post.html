@@ -1,0 +1,11 @@
+{% extends "content-layout.html" %}
+
+{% block pageTitle %}
+	Post Page
+{% endblock %}
+
+{% block content %}
+		{% for set in data %}
+		<li><h2>{{ set.post_title }}</h2><div class="well">{{ set.post_content }}</div></li>
+		{% endfor %}	
+{% endblock %}

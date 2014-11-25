@@ -1,0 +1,19 @@
+{	
+	"name": "solstis86/wpxcore",
+    "description": "OOP modular WordPress wrapper",
+    "require": {
+    	"php": ">=5.4.*",
+        "twig/twig": "~1.0",
+        "pimple/pimple": "~3.0",
+		"phpmailer/phpmailer": "dev-master",
+        "katzgrau/klogger": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "James Fairbrother",
+            "email": "james@mdigital.co",
+            "role": "Lead"
+        }
+    ],
+    "homepage": "http://wpxcore.com"
+}

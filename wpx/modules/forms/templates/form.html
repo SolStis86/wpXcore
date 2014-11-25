@@ -1,0 +1,16 @@
+<form class="form wpx-form">
+	{% for field in fields %}
+		{% if field.type != 'datetimepicker' %}
+			<div class="form-group">
+				{% if field.label %}<label for="cbName">{{ field.label }}</label>{% endif %}
+				<input type="{{ field.type }}" name="{{ field.name }}" id="{{ field.name }}" placeholder="{{ field.placeholder }}" />
+			</div>
+		{% else %}
+			<div class="form-group">
+				{% if field.label %}<label for="cbName">{{ field.label }}</label>{% endif %}
+				<input type="text" name="{{ field.name }}" id="{{ field.name }}" placeholder="{{ field.placeholder }}" class="{{ field.type }}" />
+			</div>
+		{% endif %}
+	{% endfor %}
+	<button type="submit" class="btn btn-submit">Submit</button>
+</form>

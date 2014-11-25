@@ -1,0 +1,47 @@
+.wpx-form input.error {
+	background-color: rgb(255, 210, 210)!important;
+	-webkit-animation: border-pulsate-red 2s infinite!important;
+	animation: border-pulsate-red 2s infinite!important;
+}
+.wpx-form input.valid {
+	background-color: rgb(202, 255, 221);
+}
+.wpx-form input[type="text"], .wpx-form input[type="email"] {
+	border-radius: 3px;
+}
+
+@-webkit-keyframes border-pulsate-red {
+    0%   { border-color: rgba(255, 92, 92, 0); }
+    50% { border-color: rgba(255, 92, 92, 0.75); }
+    100%   { border-color: rgba(255, 92, 92, 0); }
+}
+@keyframes border-pulsate-red {
+    0%   { border-color: rgba(255, 92, 92, 0); }
+    50% { border-color: rgba(255, 92, 92, 0.75); }
+    100%   { border-color: rgba(255, 92, 92, 0); }
+}
+
+
+#ajax-active {
+    display: none;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    top:0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#ajax-active .spinner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+    margin: auto;
+    color: #fff;
+    font-size: 75px;
+    width: 100px;
+    text-align: center;
+}

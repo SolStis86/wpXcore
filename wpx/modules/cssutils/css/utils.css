@@ -1,0 +1,38 @@
+.clearfix {
+	zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.pull-left {
+	float:left;
+}
+.pull-right {
+	float:right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+/* RESPONSIVE UTILS */
+
+@media screen and (min-width: 768px) { 	/* TABLETS */
+	
+}
+@media screen and (min-width: 920px) {	/* Small Desktops */
+
+}
+@media screen and (min-width: 1200px) {	/* Large Desktops */
+
+}
