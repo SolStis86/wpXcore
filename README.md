@@ -1,4 +1,8 @@
 wpXcore
 =======
 
-OOP Wordpress Wrapper
+OOP Wordpress Wrapper 
+
+COMING SOON
+
+Visit http://wpxcore.com/ for more details...
