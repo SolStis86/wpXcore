@@ -1,0 +1,4 @@
+wpXcore
+=======
+
+OOP Wordpress Wrapper
